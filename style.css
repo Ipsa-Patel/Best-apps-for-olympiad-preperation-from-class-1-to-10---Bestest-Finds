@@ -1,0 +1,185 @@
+.start {
+    color: red;
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font: bolder;
+}
+
+.jab {
+    text-align: left;
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-style: initial;
+    font: bold;
+    color: blue;
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+.bhi {
+        float: right; 
+        margin: 5px;
+        padding-right: 30px;
+    
+}
+
+.koi {
+    padding-top: 50px;
+    text-align: left;
+    color: magenta;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ .odd { 
+    background-color: #89ABE3;
+    padding-left: 30px;
+
+ }
+ .hed {
+    font-size: 60px;
+    font-family: "Rancho", cursive;
+        font-weight: 400;
+        font-style: normal;
+
+ }
+
+ .button {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none; /* removes the default outline of button element */
+    overflow: hidden; /* hidden the part that's outside of the container div */
+    position: relative;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #153f00;
+    padding: 9px 35px;
+    margin: 0 auto;
+    float:right;
+  }
+  .button span {
+    position: top;
+    z-index: 1; /* bring it in front of the button */
+  }
+  .button:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 470%; /* change the value in demo to see the difference */
+    width: 140%; /* change the value in demo to see the difference */
+    background: #52b71f;
+    -webkit-transition: all 0.5s ease-in-out; /* for webkit engine browsers like chrome and safari */
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg); /* for webkit engine browsers like chrome and safari */
+    transform: translateX(-100%) translateY(-25%) rotate(45deg);
+  }
+  .button:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg); /* for webkit engine browsers like chrome and safari */
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }
+
+  .even {
+    background-color: #EA738D;
+  }
+
+  .F {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+  }
+
+  .fea {
+    text-align: center;
+  }
+
+  .ima {
+    display: block;
+    margin: auto;
+  }
+
+  .trust {
+    text-align: center;
+    color: chocolate;
+    font-size: 30px;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .citation {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+  }
+
+  .con {
+    text-align: center;
+    color: chocolate;
+    font-size: 30px;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .b {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    align-self: center;
+  }
+  
+  .b span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .b span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .b:hover span {
+    padding-right: 25px;
+  }
+  
+  .b:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .video {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+  }
